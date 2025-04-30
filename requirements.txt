@@ -1,0 +1,7 @@
+pdfminer.six
+spacy
+streamlit
+openai
+duckduckgo_search
+pandas
+plotly
