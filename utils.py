@@ -11,16 +11,16 @@ import ast
 import re
 import plotly.graph_objects as go
 import pandas as pd
+import streamlit as st
 
 
 NLP = spacy.load("ru_core_news_md")
-OPENAI_KEY = 'sk-or-vv-9eaa8ec78325adaecb12bf8219d4c3999e5161a55ab3356fcff45c99972f4ef4'
-OPENAI_URL = "https://api.vsegpt.ru/v1"
+
 
 
 AI_Client = OpenAI(
-    api_key=OPENAI_KEY, 
-    base_url=OPENAI_URL
+    api_key=st.secrets['OPENAI_KEY'], 
+    base_url=st.secrets['OPENAI_URL']
 )
 
 
