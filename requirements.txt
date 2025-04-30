@@ -1,5 +1,6 @@
 pdfminer.six
 spacy
+ru_core_news_md @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_md-3.8.0/ru_core_news_md-3.8.0-py3-none-any.whl
 streamlit
 openai
 duckduckgo_search
