@@ -12,6 +12,7 @@ import re
 import plotly.graph_objects as go
 import pandas as pd
 
+
 NLP = spacy.load("ru_core_news_md")
 OPENAI_KEY = 'sk-or-vv-9eaa8ec78325adaecb12bf8219d4c3999e5161a55ab3356fcff45c99972f4ef4'
 OPENAI_URL = "https://api.vsegpt.ru/v1"
