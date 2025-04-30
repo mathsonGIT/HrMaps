@@ -1,5 +1,6 @@
 pdfminer.six
 spacy
+ru_core_news_md
 streamlit
 openai
 duckduckgo_search
